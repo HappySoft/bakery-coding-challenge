@@ -2,6 +2,11 @@
 
 This project is a solution of a coding challenge.
 
+Usage:
+
+    bundle install
+    bin/bakery < samples/1.txt
+
 ## Background
 
 A bakery used to base the price of their produce on an individual item cost. So if a customer ordered 10

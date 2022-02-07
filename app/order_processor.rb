@@ -6,7 +6,7 @@ class OrderProcessor
 
   # @param calculator [PacksCalculator]
   # @param products_db [ProductsDatabase]
-  def initialize(calculator, products_db)
+  def initialize(calculator = PacksCalculator.new, products_db = ProductsDatabase.new)
     @calculator  = calculator
     @products_db = products_db
   end

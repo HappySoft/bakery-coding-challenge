@@ -1,0 +1,9 @@
+#!/usr/bin/ruby
+
+require_relative '../app/loader'
+
+order_processor = OrderProcessor.new
+
+$stdin.each_line do |order|
+  order_processor.process(order.chomp)
+end
